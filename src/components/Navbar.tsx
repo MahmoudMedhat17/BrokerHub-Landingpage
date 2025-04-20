@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/sheet";
 import {Button} from "@/components/ui/button";
 import { Menu } from 'lucide-react';
-import { navLinks } from "..";
+import { navLinks } from "../lib";
 
 const Navbar = () => {
 

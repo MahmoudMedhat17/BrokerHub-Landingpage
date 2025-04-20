@@ -1,4 +1,4 @@
-import { serviceslink } from "..";
+import { serviceslink } from "../lib";
 
 
 const Services = () => {

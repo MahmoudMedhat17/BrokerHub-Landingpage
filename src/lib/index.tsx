@@ -116,3 +116,86 @@ export const howItWorks = [
     desc:"Once the deal is confirmed, your commission is added to your wallet and ready to withdraw."
   }
 ];
+
+
+
+export const testimonialsPeople = [
+  {
+    desc:"‘’ I can easily manage my clients' portfolios and execute trades seamlessly. The intuitive interface and powerful analytics tools keep me competitive in the market. Highly recommended! ’’",
+    icon:"/personOne.png",
+    name:"Khaled Ahmed",
+    title:"Senior Broker"
+  },
+  {
+    desc:"‘’ This app is revolutionary! The features are user-friendly, and I love the detailed reporting tools. As a day trader, I depend on precise data, and this platform delivers. My productivity has skyrocketed! ’’",
+    icon:"/personTwo.png",
+    name:"Ahmed Salem",
+    title:"Investment Advisor"
+  },
+  {
+    desc:"‘’ Brokers Hub has changed the way I manage my listings and track commissions. It's the all-in-one solution that has truly helped my business flourish! ’’",
+    icon:"/personThree.png",
+    name:"Mohamed Amr",
+    title:"Investment Advisor"
+  }
+];
+
+
+
+export const footerLinks = {
+  "socialIcons":[
+    {
+      link:"https://www.linkedin.com",
+      title:"LinkedIn",
+      icon:"/linkedIn.png"
+    },
+    {
+      link:"https://www.facebook.com",
+      title:"Facebook",
+      icon:"/facebook.png"
+    },
+    {
+      link:"https://www.instagram.com",
+      title:"Instagram",
+      icon:"/instagram.png"
+    },
+    {
+      link:"https://www.youtube.com",
+      title:"Youtube",
+      icon:"/youtube.png"
+    }
+  ],
+  "firstLinks":[
+    {
+      title:"Home"
+    },
+    {
+      title:"Features"
+    },
+    {
+      title:"Why Choose Us"
+    },
+  ],
+  "secondLinks":[
+    {
+      title:"How It works"
+    },
+    {
+      title:"Testimonials"
+    },
+    {
+      title:"Download our app"
+    },
+  ],
+  "thirdLinks":[
+    {
+      title:"Privacy Policy"
+    },
+    {
+      title:"Terms of Service"
+    },
+    {
+      title:"Cookie Policy"
+    },
+  ]
+};

@@ -1,4 +1,4 @@
-import { aboutUsLinks } from "..";
+import { aboutUsLinks } from "../lib";
 
 const Aboutus = () => {
 

@@ -1,4 +1,4 @@
-import { partnersTitle } from "..";
+import { partnersTitle } from "../lib";
 
 
 const Partners = () => {

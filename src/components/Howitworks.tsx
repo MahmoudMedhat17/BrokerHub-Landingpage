@@ -1,4 +1,4 @@
-import { howItWorks } from "..";
+import { howItWorks } from "../lib";
 
 
 const Howitworks = () => {
