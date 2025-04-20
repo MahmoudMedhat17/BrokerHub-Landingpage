@@ -7,33 +7,11 @@ import {
 } from "@/components/ui/sheet";
 import {Button} from "@/components/ui/button";
 import { Menu } from 'lucide-react';
-
+import { navLinks } from "..";
 
 const Navbar = () => {
 
-  const navLinks = [
-    {
-      link:"/Why Choose us?",
-      title:"Why Choose us?"
-    },
-    {
-      link:"/Features",
-      title:"Features"
-    },
-    {
-      link:"/How it works ?",
-      title:"How it works ?"
-    },
-    {
-      link:"/Download Our App",
-      title:"Download Our App"
-    },
-    {
-      link:"/Testimonials",
-      title:"Testimonials"
-    }
-  ];
-
+ 
 
   return (
     <header className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
@@ -44,8 +22,8 @@ const Navbar = () => {
           </Link>
           <div className="hidden md:flex items-center gap-5 lg:gap-8 text-sm lg:text-lg">
               {
-                navLinks.map((titles)=>(
-                  <Link to={titles.link}>
+                navLinks.map((titles,index)=>(
+                  <Link key={index} to={titles.link}>
                     <p>{titles.title}</p>
                   </Link>
                 ))
@@ -54,26 +32,25 @@ const Navbar = () => {
           <p className="hidden md:flex items-center gap-2">Arabic <Globe className="w-4 h-4"/></p>
         </div>
         <div className="flex items-center justify-end md:hidden">
-            <Button
-            variant="default"
-              className="rounded-sm transition bg-transparent"
-            >
-              <Sheet>
-                <SheetTrigger className="cursor-pointer">
-                  <Menu className="!w-7 !h-7"/>
-                </SheetTrigger>
-                <SheetContent>
-                  {
-                    navLinks.map((titles)=>(
-                      <Link to={titles.link}>
-                        <p className="text-xl font-semibold text-[#1B263B]">{titles.title}</p>
-                      </Link>
-                    ))
-                  }
-                  <p className="flex md:hidden items-center gap-2 text-[#1B263B] text-xl font-semibold">Arabic <Globe/></p>
-                </SheetContent>
-              </Sheet>
-            </Button>
+          <Sheet>
+            <SheetTrigger asChild>
+              <Button 
+              variant="default"
+              className="rounded-sm transition bg-transparent cursor-pointer">
+                <Menu className="!w-7 !h-7"/>
+              </Button>
+            </SheetTrigger>
+            <SheetContent>
+              {
+                navLinks.map((titles,index)=>(
+                  <Link key={index} to={titles.link}>
+                    <p className="text-xl font-semibold text-[#1B263B]">{titles.title}</p>
+                  </Link>
+                ))
+              }
+              <p className="flex md:hidden items-center gap-2 text-[#1B263B] text-xl font-semibold">Arabic <Globe/></p>
+            </SheetContent>
+          </Sheet>
         </div>
       </div>
     </header>
