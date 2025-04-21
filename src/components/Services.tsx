@@ -3,7 +3,7 @@ import { serviceslink } from "../lib";
 
 const Services = () => {
   return (
-    <section className="pt-24">
+    <section id="features" className="pt-24">
         <div className='px-6 sm:px-8 md:px-10 lg:px-[100px] py-10 bg-[#1B263B]'>
             <div className='flex flex-col justify-center items-center text-center max-w-xl mx-auto'>
                 <h2 className='text-[#FFBF00] font-semibold text-[32px]'>What We Provide ?</h2>

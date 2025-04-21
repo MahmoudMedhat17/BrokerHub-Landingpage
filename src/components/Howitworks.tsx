@@ -3,7 +3,7 @@ import { howItWorks } from "../lib";
 
 const Howitworks = () => {
   return (
-    <section className="px-6 sm:px-8 md:px-10 lg:px-[100px] pt-24">
+    <section id="howitworks" className="px-6 sm:px-8 md:px-10 lg:px-[100px] pt-24">
         <h1 className="text-[#1B263B] text-5xl font-bold">How it Works</h1>
         <div className="flex flex-col xl:flex-row items-center gap-20 pt-14">
             <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-8">

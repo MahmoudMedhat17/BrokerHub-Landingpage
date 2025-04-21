@@ -1,11 +1,9 @@
 import { aboutUsLinks } from "../lib";
 
-const Aboutus = () => {
-
-    
+const Whychooseus = () => {
 
   return (
-    <section className="px-6 sm:px-8 md:px-10 lg:px-[100px] pt-24">
+    <section id="whychooseus" className="px-6 sm:px-8 md:px-10 lg:px-[100px] pt-24">
         <div className="flex flex-col lg:flex-row items-center lg:items-start gap-[120px]">
             <img src="/public/Feature-image.png" alt="Feature-image" className="w-[303px] sm:w-[403px] h-[457px] sm:h-[557px]"/>
             <div>
@@ -37,4 +35,4 @@ const Aboutus = () => {
   )
 }
 
-export default Aboutus;
+export default Whychooseus;

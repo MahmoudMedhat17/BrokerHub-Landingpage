@@ -1,10 +1,10 @@
-import Aboutus from "./components/Aboutus";
+import Aboutus from "./components/Whychooseus";
 import Footer from "./components/Footer";
 import Howitworks from "./components/Howitworks";
 import NavAndHerosec from "./components/NavAndHerosec";
 import Partners from "./components/Partners";
 import Services from "./components/Services";
-import Stores from "./components/Stores";
+import DownloadApp from "./components/DownloadApp";
 import Testimonials from "./components/Testimonials";
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
       <Partners/>
       <Services/>
       <Howitworks/>
-      <Stores/>
+      <DownloadApp/>
       <Testimonials/>
       <Footer/>
     </div>

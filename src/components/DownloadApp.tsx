@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-const Stores = () => {
+const DownloadApp = () => {
   return (
-    <section className="px-6 sm:px-8 md:px-10 lg:px-[100px] pt-24">
+    <section id="downloadApp" className="px-6 sm:px-8 md:px-10 lg:px-[100px] pt-24">
         <div className="relative py-40 px-2 sm:p-6 bg-[#1B263B] rounded-2xl flex flex-col justify-center items-center text-white space-y-8 overflow-hidden">
             <div className="absolute bg-gradient-to-l from-white/30 to-white/5 w-48 sm:w-32 md:w-40 h-48 sm:h-32 md:h-40 rounded-full -top-14 -left-10"></div>
             <div className="absolute bg-gradient-to-l from-white/30 to-white/5 w-48 sm:w-32 md:w-40 h-48 sm:h-32 md:h-40 rounded-full -bottom-14 -right-10"></div>
@@ -23,4 +23,4 @@ const Stores = () => {
   )
 };
 
-export default Stores;
+export default DownloadApp;

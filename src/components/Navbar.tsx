@@ -8,13 +8,12 @@ import {
 import {Button} from "@/components/ui/button";
 import { Menu } from 'lucide-react';
 import { navLinks } from "../lib";
+import { ScrollToSec } from "@/lib/ScrollToSec";
+
 
 const Navbar = () => {
-
- 
-
   return (
-    <header className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+    <header id="navbar" className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
       <div className="flex justify-between items-center">
         <div className="flex items-center justify-between w-full text-white">
           <Link to="/">
@@ -23,9 +22,9 @@ const Navbar = () => {
           <div className="hidden md:flex items-center gap-5 lg:gap-8 text-sm lg:text-lg">
               {
                 navLinks.map((titles,index)=>(
-                  <Link key={index} to={titles.link}>
-                    <p>{titles.title}</p>
-                  </Link>
+                  <div onClick={()=>ScrollToSec(titles.id)} key={index}>
+                    <p className="cursor-pointer">{titles.title}</p>
+                  </div>
                 ))
               }
           </div>
@@ -43,9 +42,9 @@ const Navbar = () => {
             <SheetContent>
               {
                 navLinks.map((titles,index)=>(
-                  <Link key={index} to={titles.link}>
-                    <p className="text-xl font-semibold text-[#1B263B]">{titles.title}</p>
-                  </Link>
+                  <div onClick={()=>ScrollToSec(titles.id)} key={index}>
+                    <p className="cursor-pointer text-xl font-semibold text-[#1B263B]">{titles.title}</p>
+                  </div>
                 ))
               }
               <p className="flex md:hidden items-center gap-2 text-[#1B263B] text-xl font-semibold">Arabic <Globe/></p>

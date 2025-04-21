@@ -3,23 +3,23 @@
 
 export const navLinks = [
     {
-      link:"/Why Choose us?",
+      id:"whychooseus",
       title:"Why Choose us?"
     },
     {
-      link:"/Features",
+      id:"features",
       title:"Features"
     },
     {
-      link:"/How it works ?",
+      id:"howitworks",
       title:"How it works ?"
     },
     {
-      link:"/Download Our App",
+      id:"downloadApp",
       title:"Download Our App"
     },
     {
-      link:"/Testimonials",
+      id:"testimonials",
       title:"Testimonials"
     }
   ];

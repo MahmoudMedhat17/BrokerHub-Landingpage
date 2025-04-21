@@ -2,7 +2,7 @@ import { Button } from "./ui/button";
 
 const Hero = () => {
   return (
-    <section className="px-6 sm:px-8 md:px-10 lg:px-[100px] pt-24">
+    <section id="hero" className="px-6 sm:px-8 md:px-10 lg:px-[100px] pt-24">
        <div className="flex flex-col justify-center items-center space-y-8">
         <div className="flex flex-col justify-center items-center text-center max-w-3xl space-y-4">
            <h3 className="text-white text-5xl font-bold">Take Charge of Your Career and Begin Earning Now</h3>
