@@ -1,5 +1,6 @@
 import { footerLinks } from "@/lib";
 import { ScrollToSec } from "@/lib/ScrollToSec";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
 
@@ -23,9 +24,9 @@ const Footer = () => {
                 {
                     footerLinks.socialIcons.map((socialMedia,index)=>(
                         <div key={index}>
-                          <div className="w-10 h-10 rounded-full flex justify-center items-center bg-[#D9D9D933]" key={index}>
+                          <Link to={socialMedia.link} className="w-10 h-10 rounded-full flex justify-center items-center bg-[#D9D9D933]" key={index}>
                             <img src={socialMedia.icon} alt={socialMedia.title}/>
-                          </div>
+                          </Link>
                         </div>
                     ))
                 }

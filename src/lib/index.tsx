@@ -44,6 +44,8 @@ export const aboutUsLinks = [
     }
 ];
 
+
+
 export const partnersTitle = [
   {
     icon:"/opa.png",

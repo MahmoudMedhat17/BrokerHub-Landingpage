@@ -9,11 +9,20 @@ import { Menu } from 'lucide-react';
 import { navLinks } from "../lib";
 import { ScrollToSec } from "@/lib/ScrollToSec";
 import {Button} from "@/components/ui/button";
+import { useTranslation } from "react-i18next";
 
 
 const Navbar = () => {
 
   
+  const {t, i18n}  = useTranslation();
+
+
+  const changeLanguage = () =>{
+    const newLanguage = i18n.language === "en" ? "ar" : "en";
+    i18n.changeLanguage(newLanguage);
+    document.dir = newLanguage === "ar" ? "rtl" : "ltr";
+  }
 
   return (
     <header id="navbar" className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
@@ -31,7 +40,7 @@ const Navbar = () => {
                 ))
               }
           </div>
-          <p className="hidden md:flex items-center gap-2">Arabic <Globe className="w-4 h-4"/></p>
+          <p className="hidden md:flex items-center gap-2">{i18n.language === "en" ? "Arabic" : "English"} <Globe className="w-4 h-4"/></p>
         </div>
         <div className="flex items-center justify-end md:hidden">
         <Sheet>
@@ -54,7 +63,7 @@ const Navbar = () => {
                 </div>
               ))
             }
-            <p className="flex md:hidden items-center gap-2 text-[#1B263B] text-xl font-semibold">Arabic <Globe/></p>
+            <p className="flex md:hidden items-center gap-2 text-[#1B263B] text-xl font-semibold">{i18n.language === "en" ? "Arabic" : "English"} <Globe/></p>
           </SheetContent>
         </Sheet>
         </div>

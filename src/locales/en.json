@@ -1,0 +1,140 @@
+{
+    "navbar":{
+        "whychooseus": "Why Choose us?",
+        "features":"Features",
+        "howitworks":"How it works ?",
+        "downloadApp":"Download Our App",
+        "testimonials":"Testimonials"
+    },
+    "hero":{
+        "title":"Take Charge of Your Career and Begin Earning Now",
+        "desc":"No company, no limits! Sign up now, work your own way, and get paid fast. Everything you need to succeed all in one app. What are you waiting for?",
+        "button":"Get Started Now",
+        "content":"Over 50,000 Brokers are already utilizing our app."
+    },
+    "aboutus":{
+        "title":"Why Choose Brokers Hub?",
+        "desc":{
+            "1":{
+                "title":"Effortless Commission Tracking",
+                "sub-desc":"Easily track your commissions, requests, and payouts in one transparent and user-friendly platform."
+            },
+            "2":{
+                "title":"Direct Access to Leading Developers",
+                "sub-desc":"Connect and collaborate with over 200 trusted developers like ORA and Talat Mostafa—no middlemen, no delays."
+            },
+            "3":{
+                "title":"Mobile-Optimized Experience",
+                "sub-desc":"Work from anywhere with a smooth, user-friendly mobile interface designed for brokers on the go."
+            }
+        }
+    },
+    "partners":{
+        "title":"Trusted By Industry Leaders Over 200 Partners Top Developers in the Field"
+    },
+    "services":{
+        "title":"What We Provide ?",
+        "desc":"From managing property listings to tracking commissions, Brokers Hub provides all the tools you need to expand your business.",
+        "cards":{
+            "1":{
+                "title":"Effortless Listing Management",
+                "sub-desc":"Easily add, edit, and showcase properties with just a few taps. Keep your listings current anytime, anywhere."
+            },
+            "2":{
+                "title":"Earn When You Invite Others",
+                "sub-desc":"Allows users to earn rewards by referring new people to the platform."
+            },
+            "3":{
+                "title":"Instant Notifications",
+                "sub-desc":"Get real-time updates on new leads, client feedback, and upcoming meetings to stay informed."
+            },
+            "4":{
+                "title":"Track Your Earnings with Ease",
+                "sub-desc":"Easily monitor your earnings. Brokers Hub guarantees transparent tracking so you receive the commissions you deserve."
+            }
+        }
+    },
+    "howItWorks":{
+        "title":"How it Works",
+        "sections":{
+            "1":{
+                "title":"Sign up and build your profile",
+                "sub-desc":"Download the app, register and showcase your expertise and working area."
+            },
+            "2":{
+                "title":"Find hot deals around you",
+                "sub-desc":"Find clients or properties near you. Filter by type, location, or price range."
+            },
+            "3":{
+                "title":"Close the deal and log it",
+                "sub-desc":"Confirm the deal in the app and get reviewed by the client. It builds your reputation."
+            },
+            "4":{
+                "title":"Get your commission instantly",
+                "sub-desc":"Once the deal is confirmed, your commission is added to your wallet and ready to withdraw."
+            }
+        }
+    },
+    "downloadApp":{
+        "title":"Get Started Now",
+        "desc":"Ready to get started? Download now and join thousands of brokers."
+    },
+    "testimonials":{
+        "title":"User Testimonials",
+        "desc":"Listen to the experiences of brokers and developers who trust Brokers Hub daily.",
+        "cards":{
+            "1":{
+                "sub-desc":"‘’ I can easily manage my clients' portfolios and execute trades seamlessly. The intuitive interface and powerful analytics tools keep me competitive in the market. Highly recommended! ’’",
+                "name":"Khaled Ahmed",
+                "position":"Senior Broker"
+            },
+            "2":{
+                "sub-desc":"‘’ This app is revolutionary! The features are user-friendly, and I love the detailed reporting tools. As a day trader, I depend on precise data, and this platform delivers. My productivity has skyrocketed! ’’",
+                "name":"Ahmed Salem",
+                "position":"Investment Advisor"
+            },
+            "3":{
+                "sub-desc":"‘’ Brokers Hub has changed the way I manage my listings and track commissions. It's the all-in-one solution that has truly helped my business flourish! ’’",
+                "name":"Mohamed Amr",
+                "position":"Investment Advisor"
+            }
+        }
+    },
+    "footer":{
+        "footerTitle":"Brokers Hub gives you the freedom to broker your way no limits, no middlemen, just opportunities.",
+        "firstLinks":[
+            {
+              "title":"Home"
+            },
+            {
+              "title":"Features"
+            },
+            {
+              "title":"Why Choose Us"
+            }
+            ],
+            "secondLinks":[
+              {
+                "title":"How It works"
+              },
+              {
+                "title":"Testimonials"
+              },
+              {
+                "title":"Download our app"
+              }
+            ],
+            "thirdLinks":[
+              {
+                "title":"Privacy Policy"
+              },
+              {
+                "title":"Terms of Service"
+              },
+              {
+                "title":"Cookie Policy"
+              }
+            ],
+            "contact":"Contact us:"
+        }
+}
