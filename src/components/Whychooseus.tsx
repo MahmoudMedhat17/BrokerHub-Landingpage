@@ -5,7 +5,7 @@ const Whychooseus = () => {
   return (
     <section id="whychooseus" className="px-6 sm:px-8 md:px-10 lg:px-[100px] pt-24">
         <div className="flex flex-col lg:flex-row items-center lg:items-start gap-[120px]">
-            <img src="/public/Feature-image.png" alt="Feature-image" className="w-[303px] sm:w-[403px] h-[457px] sm:h-[557px]"/>
+            <img src="/Feature-image.png" alt="Feature-image" className="w-[303px] sm:w-[403px] h-[457px] sm:h-[557px]"/>
             <div>
                 <h1 className="text-5xl font-bold text-[#1B263B] mb-10">
                     Why Choose Brokers Hub?
