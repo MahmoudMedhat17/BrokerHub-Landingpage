@@ -11,7 +11,7 @@ const Hero = () => {
             Get Started Now
            </Button>
         </div>
-        <div className="flex gap-2">
+        <div className="flex flex-col items-center sm:flex-row gap-2">
           <div className="flex gap-2">
             <img src="/personOne.png" alt="personOne-img" className="w-7 h-7"/>
             <img src="/personTwo.png" alt="personTwo-img" className="w-7 h-7"/>
